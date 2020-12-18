@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        main {
+            position : relative;
+            display : inline-block;
+        }
+        .row {
+            display : flex;
+        }
+        .cell {
+            display : block;
+            height: 10px;
+            width : 10px;
+            border : solid 0.5px black;
+        }
+        .obstacle {
+            background-color: black;
+        }
+        .walkable {
+            background-color: green;
+        }
+        .player {
+            background-color: blue;
+        }
+        #loaderContainer {
+            position: absolute;
+            z-index : 5;
+            width : 100%;
+            height : 100%;
+            display : flex;
+            top : 0;
+            left : 0;
+            align-items: center;
+            justify-content: center;
+        }
+        #loaderContainer img {
+            width : 100px;
+            height : 100px;
+        }
+    </style>
+    
+    <main>
+        <div id="loaderContainer">
+            <img src="./spinner.svg">
+        </div>
+    </main>
+    <template id="rowT"><div class="row"></div></template>
+    <template id="cellT"><div class="cell"></div></template>
+    <script src="./index.js"></script>
+</body>
+</html>

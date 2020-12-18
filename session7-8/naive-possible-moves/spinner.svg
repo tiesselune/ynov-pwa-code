@@ -1,0 +1,32 @@
+<svg width="50.293mm" height="50.293mm" version="1.1" viewBox="0 0 50.293 50.293" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+ 	#foreground {
+     	fill : white;
+     	stroke : white;
+     	animation : spin 0.8s infinite linear;
+     	transform-origin : 50% 50%;
+ 	}
+ 	@media (prefers-color-scheme : light){
+     	#foreground {
+         	fill: white;
+         	stroke : white;
+     	}
+ 	}
+ 	@keyframes spin {
+     	0% {
+         	transform : rotate(0);
+     	}
+     	100% {
+         	transform : rotate(360deg);
+     	}
+ }
+ </style>
+	<defs>
+		<linearGradient id="linearGradient1588" x1="102.14" x2="101.76" y1="55" y2="103.87" gradientTransform="translate(-75.128 -53.644)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#26ff4c" offset="0"/>
+			<stop stop-color="#007ca9" offset="1"/>
+		</linearGradient>
+	</defs>
+	<path id="background" d="m25.147 0.14604a25 25 0 0 0-25 25 25 25 0 0 0 25 25 25 25 0 0 0 25-25 25 25 0 0 0-25-25zm0 6.8988a18.101 18.101 0 0 1 18.101 18.101 18.101 18.101 0 0 1-18.101 18.101 18.101 18.101 0 0 1-18.101-18.101 18.101 18.101 0 0 1 18.101-18.101z" fill="url(#linearGradient1588)"/>
+	<path id="foreground" d="m25.205 0.14604a25 25 0 0 0-23.033 15.143 25 25 0 0 0 5.1496 27.386 25 25 0 0 0 27.295 5.6079 25 25 0 0 0 15.53-23.137h-6.8988a18.101 18.101 0 0 1-18.101 18.101 18.101 18.101 0 0 1-18.101-18.101 18.101 18.101 0 0 1 18.101-18.101 18.101 18.101 0 0 1 0.30334 0.0031l0.11575-6.8983a25 25 0 0 0-0.3607-0.0036z" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="1"/>
+</svg>
