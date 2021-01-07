@@ -1,0 +1,19 @@
+{
+    "name" : "Woof !",
+    "scope" : "/",
+    "start_url" : "/",
+    "short_name" : "Woof !",
+    "description" : "Get random pictures of dogs!",
+    "lang" : "en_US",
+    "icons" : [
+        {
+            "src" : "/assets/icon_maskable.png",
+            "sizes" : "800x800",
+            "type" : "image/png",
+            "purposes" : "any maskable"
+        }
+    ],
+    "background_color" : "#0a75ff",
+    "theme_color" : "#0a75ff",
+    "display" : "standalone"
+}

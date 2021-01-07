@@ -1,0 +1,55 @@
+body,html {
+    padding : 0;
+    margin : 0;
+}
+
+header {
+    background-color: #0a75ff;
+    padding : 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color : white;
+}
+
+header img {
+    display : inline-block;
+    height : 2em;
+    margin-left : 1em;
+}
+
+h1 {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main  {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 2em;
+}
+
+#randomizer {
+    background-color: #0a75ff;
+    border-radius : 50%;
+    height : 3em;
+    width : 3em;
+    background-image: url("./logo.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat : no-repeat;
+    cursor: pointer;
+    box-shadow: #0a75ff 0px 0px 0px;
+    transition : box-shadow 0.2s ease-in-out;
+}
+
+#randomizer:hover {
+    box-shadow: #0a75ff 0px 0px 6px;
+}
+
+#picture {
+    max-width : 100%;
+    max-height: 500px;
+    margin-top: 1.3em;
+}
