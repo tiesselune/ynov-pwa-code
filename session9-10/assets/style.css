@@ -53,3 +53,36 @@ main  {
     max-height: 500px;
     margin-top: 1.3em;
 }
+
+.button {
+    border : solid 1px black;
+    border-radius: 0px;
+    display : flex;
+    flex-direction : row;
+    padding : 0.5em;
+    cursor : pointer;
+    transition: border-radius 0.2s ease-out, box-shadow 0.2s ease-out;
+    align-items: center;
+    margin-right : 5px;
+}
+
+.button img {
+    height : 1.4em;
+    margin-left : 0.7em;
+}
+
+.button:hover {
+    border-radius : 5px;
+    box-shadow: black 0px 0px 5px;
+}
+
+.install-prompt {
+    width : 100%;
+    max-width : 700px;
+    display : flex;
+    justify-content: flex-end;
+}
+
+.hidden {
+    display : none;
+}
